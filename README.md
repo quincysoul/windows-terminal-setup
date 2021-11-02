@@ -47,6 +47,7 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 - WSL ubuntu has python3 already.
 - Need pyenv to manage python version installs.
 ```
+sudo apt-get install build-essential
 cd $HOME/.pyenv
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 cd $HOME/.pyenv/bin
