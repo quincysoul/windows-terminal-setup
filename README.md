@@ -60,14 +60,7 @@ cd $HOME/.pyenv/bin
 ```
 - Follow [instructions for fish or other shell for Pyenv](https://github.com/pyenv/pyenv#automatic-installer)
 - Poetry:
-  - The poetry website lists a new install script but it does not work in wsl or mac.
-  - Use this
-  ```
-  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3 -
-  
-  poetry config virtualenvs.in-project true
-
-  ```
+  - The poetry website lists a new install script - use and then use dotenv $PATH
   
 
 ### Other snips
